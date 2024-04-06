@@ -25,7 +25,6 @@ def ga(N,which=1):
     #  N:函数的变量数量
     if which == 1:
         # 为每个变量注册一个随机生成的函数
-        # 你可以根据你的需求更改这个范围
         BOUND_LOW, BOUND_UP = -N*N,N*N
     elif which == 2:
         BOUND_LOW, BOUND_UP = -600,600

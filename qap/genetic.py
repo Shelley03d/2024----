@@ -69,4 +69,4 @@ def genetic():
     for n, h, d in data:
         best_solution = ga(n, h, d)
         print('Best solution:', best_solution)
-    
+genetic()
